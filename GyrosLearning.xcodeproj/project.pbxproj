@@ -29,9 +29,22 @@
 		E94C82432CC60F71009C992F /* GyrosLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyrosLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E95FA2D72CC79D73005E188B /* Exceptions for "GyrosLearning" folder in "GyrosLearning" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E94C82282CC60F70009C992F /* GyrosLearning */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E94C822B2CC60F70009C992F /* GyrosLearning */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E95FA2D72CC79D73005E188B /* Exceptions for "GyrosLearning" folder in "GyrosLearning" target */,
+			);
 			path = GyrosLearning;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,9 @@
 				DEVELOPMENT_TEAM = 74HCH446S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GyrosLearning/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "need to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access galery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = 74HCH446S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GyrosLearning/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "need to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access galery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
